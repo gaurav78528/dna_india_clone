@@ -14,67 +14,67 @@ let logoArr = [
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-photos.svg",
     name: "Photos",
-    link: "#",
+    link: "photos.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-videos.svg",
     name: "Videos",
-    link: "#",
+    link: "videos.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-explainer.svg",
     name: "Explainers",
-    link: "#",
+    link: "explainers.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-india.svg",
     name: "India",
-    link: "#",
+    link: "india.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-entertainment.svg",
     name: "Entertainment",
-    link: "#",
+    link: "entertainment.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-sports.svg",
     name: "Sports",
-    link: "#",
+    link: "sports.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-viralNews.svg",
     name: "Viral News",
-    link: "#",
+    link: "viralNews.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-lifestyle.svg",
     name: "Lifestyle",
-    link: "#",
+    link: "Lifestyle.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-business.svg",
     name: "Business",
-    link: "#",
+    link: "business.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/icons-world.svg",
     name: "World",
-    link: "#",
+    link: "world.html",
   },
   {
     image:
       "https://english.cdn.zeenews.com/static/public/icons/ezmall-icon1.png",
     name: "Ezmall",
-    link: "#",
+    link: "Ezmall.html",
   },
 ];
 
@@ -98,38 +98,62 @@ logoArr.forEach(function (elem) {
 let newsArr = [
   {
     image:
-      "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523938-2522529-2455342-draupadi-murmu.jpg",
-    news: "Droupadi Murmu's inspirational life: Two sons, husband died within four years, but she continued her march",
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/23/2524482-fotojet-2022-07-23t112635.671-1.jpg",
+    news: "Streaming This Week: The Gray Man, JugJugg Jeeyo to Ghar Waapsi, OTT releases to watch",
     link: "#",
   },
   {
     image:
-      "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523922-sonia-rahul.jpg",
-    news: "National Herald case explained: Why is Sonia Gandhi appearing before ED today?",
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/22/2524400-horror-fi.jpg",
+    news: "Scream, Men, Crimes Of The Future, The Black Phone: Best horror movie of 2022 so far",
     link: "#",
   },
   {
     image:
-      "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523947-microsoft-teams-out.png",
-    news: "Microsoft Teams outage triggers meme fest on Twitter, corporate workers call it ‘the best day’",
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/22/2524269-ind-vs-wi.jpg",
+    news: "With KL Rahul testing Covid positive and Rohit Sharma rested, who will open ODI with Shikhar Dhawan?",
     link: "#",
   },
   {
     image:
-      "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523948-sanjay-duttpr-handout-1.jpg",
-    news: "Shamshera director Karan Malhotra recalls Sanjay Dutt battling cancer throughout film's shoot",
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/22/2524228-monsoon-in-india.png",
+    news: "Monsoon in India: Tips to protect your smartphones, earbuds and other gadgets during rainy season",
     link: "#",
   },
   {
     image:
-      "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523911-rishi-sunak-liz-truss.jpg",
-    news: "Rishi Sunak scripts history, to face Liz Truss in final leg of British PM contest",
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/22/2524224-ranveer-singh-milind-somanfile-photos-1.jpg",
+    news: "Ranveer Singh, Milind Soman, Pooja Bedi, Aamir Khan: Indian celebrities who went naked in front of camera",
     link: "#",
   },
   {
     image:
-      "https://cdn.dnaindia.com/sites/default/files/styles/full/public/2022/07/21/2523936-sourav-ganguly-jay-shah.jpg",
-    news: "DNA Explainer: What is the BCCI constitution amendment plea? How it affects Sourav Ganguly, Jay Shah?",
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/21/2524078-untitled-design-2022-07-21t175834.763.jpg",
+    news: "Draupadi Murmu: 5 firsts achieved by the new Indian President",
+    link: "#",
+  },
+  {
+    image:
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/21/2523994-hollywood-actors.jpg",
+    news: "Mike Tyson, Slyvester Stallone, Will Smith: International stars who featured in Bollywood movies",
+    link: "#",
+  },
+  {
+    image:
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/21/2523923-the-gray-man-1.jpg",
+    news: "The Gray Man: Vicky Kaushal, Jacqueline Fernandez, Aanand L Rai attend Dhanush's movie premiere",
+    link: "#",
+  },
+  {
+    image:
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/20/2523871-fotojet-2022-07-20t215825.725-1.jpg",
+    news: "Viral Photos of the Day: Janhvi Kapoor, Disha Patani, Tara Sutaria give fashion goals",
+    link: "#",
+  },
+  {
+    image:
+      "https://cdn.dnaindia.com/sites/default/files/styles/half/public/2022/07/20/2523879-untitled-design-2022-07-20t215908.620.jpg",
+    news: "DNA Explainer: Is 'Work From Home' the future? Know about changing employee mentality",
     link: "#",
   },
 ];
