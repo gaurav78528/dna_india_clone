@@ -10,15 +10,6 @@ body p {
 body p:hover {
   color: #47478d;
 }
-#navbar {
-  position: sticky;
-  top: 0;
-  height: 60px;
-  width: 100%;
-  background-color: #ffde2f;
-  display: flex;
-  justify-content: space-between;
-}
 
 #container {
   /* border: 2px solid teal; */
@@ -28,7 +19,15 @@ body p:hover {
 #container > div {
   width: 100%;
 }
-
+#navbar {
+  position: sticky;
+  top: 0;
+  height: 60px;
+  width: 100%;
+  background-color: #ffde2f;
+  display: flex;
+  justify-content: space-between;
+}
 #logo {
   display: flex;
   align-items: center;
@@ -72,10 +71,6 @@ body p:hover {
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
-#headline > div:last-child {
-  position: relative;
-  width: 100%;
-}
 #crauser {
   /* width: 86%; */
   color: white;
@@ -93,6 +88,10 @@ button {
   border: none;
   cursor: pointer;
 }
+#headline > div:last-child {
+  position: relative;
+  width: 100%;
+}
 #left-btn {
   right: 80px;
   top: 20px;
@@ -106,15 +105,6 @@ button {
   height: 20px;
   top: 20px;
 }
-#event {
-  /* border: 2px solid red; */
-  display: flex;
-  justify-content: center;
-}
-#event > img {
-  width: 75%;
-}
-
 #main {
   /* border: 2px solid black; */
   display: flex;
@@ -123,7 +113,7 @@ button {
   margin-top: 15px;
 }
 #left-section {
-  /* border: 2px solid red; */
+  /* border: 2px solid red;  */
   padding-top: 10px;
   padding-left: 10px;
   width: 20%;
@@ -159,71 +149,21 @@ button {
   /* border: 2px solid blue; */
   margin: 15px 30px;
   padding-bottom: 20px;
-  /* display: grid;
-  grid-template-columns: repeat(1, 1fr); */
 }
-.top-news {
-  width: 100%;
-  /* border: 2px solid maroon; */
-  margin-bottom: 20px;
-  background-color: white;
+#center-section span > a {
+  font-size: 12px;
+  padding-right: 3px;
 }
-.top-news > img {
-  width: 100%;
-}
-.top-news > p {
-  margin: 5px;
-  font-weight: 500;
-  color: #1c1c1c;
-  font-size: 18px;
-}
-.top-news > p:hover {
+#center-section span > a:hover {
   color: #47478d;
 }
-#news {
-  display: grid;
-  grid-template-columns: repeat(1, 1fr);
-  gap: 10px;
-}
-#news > a > div {
-  width: 100%;
-  /* border: 2px solid rebeccapurple; */
-  display: flex;
-  background-color: white;
-}
-#news > a > div > img {
-  width: 25%;
-  padding: 10px;
-}
-#news > a > div > p {
-  color: #1c1c1c;
-  font-size: 15px;
-}
-#news > a > div > p:hover {
-  color: #47478d;
-}
-.section > div {
-  /* border: 2px solid red; */
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
-.section > div > a > div {
-  /* border: 2px solid magenta; */
-  background-color: white;
-  padding: 5px;
-  border-bottom: 2px solid #ffde2f;
-}
-.section > div > a > div > img {
-  width: 100%;
-}
-.section > h2 {
+#center-section h2 {
+  margin: 0px;
+  margin-top: 10px;
+  font-weight: 400;
   border-bottom: 2px solid #e5e5e5;
-  font-weight: 500;
-  font-size: 20px;
-  color: #424444;
 }
-.section > h2:after {
+#center-section > h2:after {
   content: "";
   display: block;
   border-bottom: 2px solid #ffde2f;
@@ -231,20 +171,46 @@ button {
   max-width: 100px;
   padding-top: 5px;
 }
+#news {
+  width: 100%;
+  /* border: 2px solid maroon; */
+  margin-bottom: 20px;
+}
+#news div {
+  /* border: 2px solid red; */
+  margin-top: 10px;
+  background-color: white;
+  padding: 10px;
+}
+#news img {
+  /* border: 2px solid red; */
+  width: 100%;
+}
+#news p {
+  margin: 5px;
+  color: #1c1c1c;
+  font-size: 20px;
+  line-height: 35px;
+}
+#news p:hover {
+  color: #47478d;
+}
 .more-btn {
   width: 100%;
-  /* border: 2px solid red; */
   text-align: center;
-  background-color: white;
   padding: 10px 0px;
-  font-weight: bold;
-  color: #424444;
+  border: 1px solid black;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: bolder;
+  color: black;
   margin: 20px 0px;
 }
 .more-btn:hover {
-  color: #47478d;
+  color: #ffde2f;
   cursor: pointer;
 }
+
 /* CENTER SECTION CSS ENDS HERE  */
 /* --------------------------------------------------------------------------------- */
 /* RIGHT SECTION CSS STARTS HERE  */
@@ -254,6 +220,7 @@ button {
   margin-top: 15px;
   /* border: 2px solid red; */
 }
+
 #news-head > div {
   display: flex;
   justify-content: space-between;
@@ -329,7 +296,6 @@ button {
 }
 .grid > a > div {
   width: 100%;
-  /* border: 2px solid rebeccapurple; */
   display: flex;
   background-color: white;
 }
@@ -374,7 +340,6 @@ button {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px 30px;
 }
-
 #grid-most-viewed a > div > p {
   margin: 0px;
 }

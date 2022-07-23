@@ -539,3 +539,33 @@ dnaOriginals.forEach(function (elem) {
   div.append(img, news);
   document.querySelector("#dna-originals").append(links);
 });
+
+// breaking news section in header section
+
+let breakingNews = [
+  "NCR weather update: Rain, thundershowers in Delhi, adjacent cities over the weekend, check complete IMD forecast",
+  "DNA Explainer: What is Population Control Bill, two-child policy and its Constitutional roots?",
+  "Taliban shoots young man in Andarab district, publicly displays dead body",
+  "NEET UG 2022: Smartphones to microchip, NTA finds multiple cases of unfair means used by aspirants",
+  "Ranveer Singh nude photoshoot: Mimi Chakraborty questions gender equality, says 'wonder if...'",
+];
+
+let leftBtn = document.querySelector("#left-btn");
+let rightBtn = document.querySelector("#right-btn");
+let crauser = document.querySelector("#crauser");
+
+let newsState = 0;
+rightBtn.addEventListener("click", function () {
+  newsState++;
+  if (newsState === breakingNews.length) {
+    newsState = 0;
+  }
+  crauser.innerText = breakingNews[newsState];
+});
+leftBtn.addEventListener("click", function () {
+  newsState--;
+  if (newsState < 0) {
+    newsState = breakingNews.length - 1;
+  }
+  crauser.innerText = breakingNews[newsState];
+});

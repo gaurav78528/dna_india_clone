@@ -64,18 +64,46 @@ body p:hover {
   background-color: #424444;
 }
 #headline > div:first-child {
+  width: 8%;
+  font-size: 13px;
   background-color: #aaaaaa;
-  padding: 15px 35px;
+  padding: 19px 35px;
   border-bottom-right-radius: 10px;
   border-top-right-radius: 10px;
 }
-#headline > div:last-child {
-  width: 86%;
+#crauser {
+  /* width: 86%; */
   color: white;
-  padding: 15px 10px;
+  padding: 0px 10px;
   font-family: "Roboto Slab", sans-serif;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 300;
+}
+button {
+  position: absolute;
+  top: 10%;
+  font-weight: bolder;
+  background-color: #424444;
+  color: #81807a;
+  border: none;
+  cursor: pointer;
+}
+#headline > div:last-child {
+  position: relative;
+  width: 100%;
+}
+#left-btn {
+  right: 80px;
+  top: 20px;
+  width: 30px;
+  height: 20px;
+}
+
+#right-btn {
+  right: 10px;
+  width: 30px;
+  height: 20px;
+  top: 20px;
 }
 #main {
   /* border: 2px solid black; */
@@ -122,9 +150,31 @@ body p:hover {
   margin: 15px 30px;
   padding-bottom: 20px;
   /* display: grid;
-    grid-template-columns: repeat(1, 1fr); */
+      grid-template-columns: repeat(1, 1fr); */
+}
+#center-section span > a {
+  font-size: 12px;
+  padding-right: 3px;
+}
+#center-section span > a:hover {
+  color: #47478d;
+}
+#center-section h2 {
+  margin: 0px;
+  margin-top: 10px;
+  font-weight: 400;
+  border-bottom: 2px solid #e5e5e5;
+}
+#center-section > h2:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #ffde2f;
+  margin-bottom: -2px;
+  max-width: 100px;
+  padding-top: 5px;
 }
 #news {
+  margin-top: 10px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 10px;
@@ -336,6 +386,9 @@ footer > div > div > div:last-child {
 #second-row > div {
   display: flex;
   flex-direction: column;
+}
+.row p {
+  color: #81807a;
 }
 footer > div > div > div:first-child > img {
   margin: auto;
